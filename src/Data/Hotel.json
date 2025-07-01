@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury Sea View Hotel",
+    "location": "Maldives",
+    "rating": 4.7,
+    "reviews": 122,
+    "price": 350,
+    "image": "/Images/hotel9.png",
+    "featured": "true",
+    "description": "A luxurious sea-facing hotel in the heart of Maldives. Includes all-day dining, free Wi-Fi, and water activities.",
+    "facilities": [
+      {
+        "name": "Free Wi-Fi",
+        "icon": "wifi"
+      },
+      {
+        "name": "Swimming Pool",
+        "icon": "swimming"
+      },
+      {
+        "name": "Restaurant",
+        "icon": "restaurant"
+      },
+      {
+        "name": "Airport Shuttle",
+        "icon": "bus"
+      },
+      {
+        "name": "Spa & Wellness",
+        "icon": "heart-pulse"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mountain Escape Resort",
+    "location": "Switzerland",
+    "rating": 4.9,
+    "reviews": 155,
+    "price": 520,
+    "image": "/Images/hotel2.png",
+    "featured": "true",
+    "description": "Enjoy a peaceful retreat in the Swiss Alps with breathtaking views, cozy chalets, and ski-in/ski-out access.",
+    "facilities": [
+      {
+        "name": "Free Wi-Fi",
+        "icon": "wifi"
+      },
+      {
+        "name": "Ski Access",
+        "icon": "snow"
+      },
+      {
+        "name": "Restaurant",
+        "icon": "restaurant"
+      },
+      {
+        "name": "Fireplace",
+        "icon": "flame"
+      },
+      {
+        "name": "Hot Tub",
+        "icon": "water"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Urban City Hotel",
+    "location": "New York USA",
+    "rating": 4.9,
+    "reviews": 255,
+    "price": 620,
+    "image": "/Images/hotel3.png",
+    "featured": "true",
+    "description": "Located in heart of nyc, perfect for business travellers and tourists, with modern amenities and great connectivity.",
+    "facilities": [
+      {
+        "name": "Free Wi-Fi",
+        "icon": "wifi"
+      },
+      {
+        "name": "Gym",
+        "icon": "dumbbell"
+      },
+      {
+        "name": "Bar",
+        "icon": "beer"
+      },
+      {
+        "name": "Conference Room",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Room Service",
+        "icon": "bell"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Romantic Beachfront Inn",
+    "location": "Bali, Indonesia",
+    "rating": 4.6,
+    "reviews": 55,
+    "price": 320,
+    "image": "/Images/hotel4.png",
+    "featured": "true",
+    "description": "Perfect for couples, this romantic getway offers beachfront dining and private villas with pools.",
+    "facilities": [
+      {
+        "name": "Private Pool",
+        "icon": "droplet"
+      },
+      {
+        "name": "Spa Service",
+        "icon": "heart"
+      },
+      {
+        "name": "Beach Access",
+        "icon": "umbrella"
+      },
+      {
+        "name": "Free Breakfast",
+        "icon": "coffee"
+      },
+      {
+        "name": "Free Wi-Fi",
+        "icon": "wifi"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Desert Mirage Hotel",
+    "location": "Dubai, UAE",
+    "rating": 4.9,
+    "reviews": 265,
+    "price": 720,
+    "image": "/Images/hotel5.png",
+    "featured": "true",
+    "description": "A stylish hotel with Arabian architecture, rooftop pools, and desert tour packages.",
+    "facilities": [
+      {
+        "name": "Rooftop Pool",
+        "icon": "water"
+      },
+      {
+        "name": "Desert Safari",
+        "icon": "compass"
+      },
+      {
+        "name": "Restaurant",
+        "icon": "restaurant"
+      },
+      {
+        "name": "Fitness Center",
+        "icon": "dumbbell"
+      },
+      {
+        "name": "Airport Shuttle",
+        "icon": "bus"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tropical Garden Resort",
+    "location": "Phuket Thailand",
+    "rating": 4.6,
+    "reviews": 115,
+    "price": 270,
+    "image": "/Images/hotel6.png",
+    "featured": "true",
+    "description": "Surrounded by lush garden and waterfall, this resort offers eco friendly rooms.",
+    "facilities": [
+      {
+        "name": "Eco Rooms",
+        "icon": "leaf"
+      },
+      {
+        "name": "Yoga Classes",
+        "icon": "meditation"
+      },
+      {
+        "name": "Swimming Pool",
+        "icon": "swimming"
+      },
+      {
+        "name": "Free Wi-Fi",
+        "icon": "wifi"
+      },
+      {
+        "name": "Spa & Wellness",
+        "icon": "heart-pulse"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lakeview Boutique Hotel",
+    "location": "Queenstown, New Zealand",
+    "rating": 4.5,
+    "reviews": 315,
+    "price": 370,
+    "image": "/Images/hotel7.png",
+    "featured": "false",
+    "description": "Enjoy panoramic lake view, modern design, and warm service in the adventure capital of New Zealand.",
+    "facilities": [
+      {
+        "name": "Lake View",
+        "icon": "eye"
+      },
+      {
+        "name": "Free Parking",
+        "icon": "car"
+      },
+      {
+        "name": "Free Breakfast",
+        "icon": "coffee"
+      },
+      {
+        "name": "Free Wi-Fi",
+        "icon": "wifi"
+      },
+      {
+        "name": "Mini Bar",
+        "icon": "beer"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Forest Hideway Cabin",
+    "location": "Banff, Canada",
+    "rating": 4.8,
+    "reviews": 95,
+    "price": 320,
+    "image": "/Images/hotel8.png",
+    "featured": "true",
+    "description": "A rustic and cozy tucked away in nature, perfect for wildlife watching and hiking.",
+    "facilities": [
+      {
+        "name": "Fireplace",
+        "icon": "flame"
+      },
+      {
+        "name": "Mountain View",
+        "icon": "mountain"
+      },
+      {
+        "name": "Hiking Trails",
+        "icon": "compass"
+      },
+      {
+        "name": "BBQ Grill",
+        "icon": "grill"
+      },
+      {
+        "name": "Pet Friendly",
+        "icon": "paw"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Historic Palace Hotel",
+    "location": "Vienna, Austria",
+    "rating": 4.2,
+    "reviews": 115,
+    "price": 170,
+    "image": "/Images/hotel9.png",
+    "featured": "false",
+    "description": "Stay in renovated 19th century palace with grand ballrooms, chandeliers and classical elegance.",
+    "facilities": [
+      {
+        "name": "Historic Rooms",
+        "icon": "building"
+      },
+      {
+        "name": "Piano Bar",
+        "icon": "music"
+      },
+      {
+        "name": "Concierge",
+        "icon": "user"
+      },
+      {
+        "name": "Free Breakfast",
+        "icon": "coffee"
+      },
+      {
+        "name": "Free Wi-Fi",
+        "icon": "wifi"
+      }
+    ]
+  }
+]

@@ -1,0 +1,299 @@
+[
+    {
+        "id": 10,
+        "name": "Nordic Ice Hotel",
+        "location": "Kiruna, Sweden",
+        "rating": 4.8,
+        "reviews": 185,
+        "price": 460,
+        "image": "/Images/restaurent1.png",
+        "featured": "true",
+        "description": "A unique hotel built entirely from ice and snow. Includes guided aurora tours and thermal gear.",
+        "facilities": [
+            {
+                "name": "Ice Bar",
+                "icon": "snow"
+            },
+            {
+                "name": "Aurora Tours",
+                "icon": "star"
+            },
+            {
+                "name": "Thermal Gear",
+                "icon": "thermometer"
+            },
+            {
+                "name": "Sauna",
+                "icon": "flame"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Safari Luxury Lodge",
+        "location": "Maasai Mara, Kenya",
+        "rating": 4.9,
+        "reviews": 210,
+        "price": 580,
+        "image": "/Images/restaurent2.png",
+        "featured": "true",
+        "description": "Premium lodge offering big-five safari tours, starlit dinners, and local culture immersion.",
+        "facilities": [
+            {
+                "name": "Safari Tours",
+                "icon": "binoculars"
+            },
+            {
+                "name": "Outdoor Dining",
+                "icon": "utensils"
+            },
+            {
+                "name": "Cultural Shows",
+                "icon": "drum"
+            },
+            {
+                "name": "Airport Pickup",
+                "icon": "bus"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Rainforest Eco Lodge",
+        "location": "Costa Rica",
+        "rating": 4.7,
+        "reviews": 134,
+        "price": 290,
+        "image": "/Images/restaurent3.png",
+        "featured": "false",
+        "description": "Immerse in nature with eco cabins, canopy walks, and wildlife safaris in the rainforest.",
+        "facilities": [
+            {
+                "name": "Canopy Walk",
+                "icon": "tree"
+            },
+            {
+                "name": "Wildlife Tours",
+                "icon": "paw"
+            },
+            {
+                "name": "Sustainable Energy",
+                "icon": "leaf"
+            },
+            {
+                "name": "Organic Dining",
+                "icon": "carrot"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Château Elegance Hotel",
+        "location": "Loire Valley, France",
+        "rating": 4.8,
+        "reviews": 198,
+        "price": 490,
+        "image": "/Images/restaurent4.png",
+        "featured": "true",
+        "description": "Stay in a restored château surrounded by vineyards and historic architecture.",
+        "facilities": [
+            {
+                "name": "Wine Tasting",
+                "icon": "wine"
+            },
+            {
+                "name": "Historic Tours",
+                "icon": "building"
+            },
+            {
+                "name": "Fine Dining",
+                "icon": "utensils"
+            },
+            {
+                "name": "Garden Walks",
+                "icon": "leaf"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Tokyo Capsule Hotel",
+        "location": "Tokyo, Japan",
+        "rating": 4.4,
+        "reviews": 322,
+        "price": 90,
+        "image": "/Images/restaurent5.png",
+        "featured": "false",
+        "description": "Efficient and clean capsule hotel experience in downtown Tokyo for budget travelers.",
+        "facilities": [
+            {
+                "name": "Capsule Pods",
+                "icon": "bed"
+            },
+            {
+                "name": "Shared Lounge",
+                "icon": "users"
+            },
+            {
+                "name": "Vending Machines",
+                "icon": "cup"
+            },
+            {
+                "name": "24h Front Desk",
+                "icon": "clock"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Andean Sky Retreat",
+        "location": "Cusco, Peru",
+        "rating": 4.5,
+        "reviews": 142,
+        "price": 240,
+        "image": "/Images/restaurent6.png",
+        "featured": "false",
+        "description": "Rustic retreat nestled in Andes mountains with access to Machu Picchu tours.",
+        "facilities": [
+            {
+                "name": "Mountain Trekking",
+                "icon": "mountain"
+            },
+            {
+                "name": "Traditional Meals",
+                "icon": "utensils"
+            },
+            {
+                "name": "Local Guides",
+                "icon": "compass"
+            },
+            {
+                "name": "Terrace View",
+                "icon": "eye"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Floating River Hotel",
+        "location": "Bangkok, Thailand",
+        "rating": 4.3,
+        "reviews": 176,
+        "price": 200,
+        "image": "/Images/restaurent7.png",
+        "featured": "true",
+        "description": "Unique floating hotel on Chao Phraya River with rooftop bar and river cruises.",
+        "facilities": [
+            {
+                "name": "River Cruise",
+                "icon": "ship"
+            },
+            {
+                "name": "Rooftop Bar",
+                "icon": "beer"
+            },
+            {
+                "name": "Waterfront View",
+                "icon": "eye"
+            },
+            {
+                "name": "Thai Massage",
+                "icon": "heart-pulse"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Downtown Art Hotel",
+        "location": "Berlin, Germany",
+        "rating": 4.6,
+        "reviews": 187,
+        "price": 310,
+        "image": "/Images/restaurent8.png",
+        "featured": "false",
+        "description": "Modern artistic design, local exhibitions, and creative space for digital nomads.",
+        "facilities": [
+            {
+                "name": "Art Gallery",
+                "icon": "palette"
+            },
+            {
+                "name": "Coworking Space",
+                "icon": "briefcase"
+            },
+            {
+                "name": "Coffee Bar",
+                "icon": "coffee"
+            },
+            {
+                "name": "Digital Lockers",
+                "icon": "lock"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Beachfront Chill Hotel",
+        "location": "Cape Town, South Africa",
+        "rating": 4.4,
+        "reviews": 203,
+        "price": 280,
+        "image": "/Images/restaurent9.png",
+        "featured": "true",
+        "description": "Laid-back beachfront hotel with surf lessons, seafood grills, and sunset bars.",
+        "facilities": [
+            {
+                "name": "Surf Lessons",
+                "icon": "surf"
+            },
+            {
+                "name": "Beach Bar",
+                "icon": "beer"
+            },
+            {
+                "name": "Seafood Grill",
+                "icon": "fish"
+            },
+            {
+                "name": "Ocean View",
+                "icon": "eye"
+            },
+            {
+                "name": "Free Wi-Fi",
+                "icon": "wifi"
+            }
+        ]
+    }
+]
