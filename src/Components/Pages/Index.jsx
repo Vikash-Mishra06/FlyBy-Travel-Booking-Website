@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'; // ✅ Add this
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
