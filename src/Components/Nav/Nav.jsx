@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from 'react-router-dom';
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,7 +9,7 @@ function Nav() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const { cartItems } = useContext(CartContext);
 
-    const toggleMenu = () => setIsMenuOpen((prev) => !prev);
+    const toggleMenu = () => setIsMenuOpen(prev => !prev);
     const closeMenu = () => setIsMenuOpen(false);
 
     return (
@@ -17,6 +17,7 @@ function Nav() {
             className="text-white p-0 navbar-expand-lg flex-column"
             style={{ backgroundColor: "#12151e" }}
         >
+            {/* Top Header */}
             <div className="container d-flex align-items-center justify-content-center">
                 <div
                     className="row w-100 py-3"
@@ -24,7 +25,8 @@ function Nav() {
                 >
                     <div className="col-lg-12">
                         <div className="w-100 top-header position-relative d-flex align-items-center justify-content-between">
-                            {/* Left: Call Info */}
+                            
+                            {/* Call Info (Left) */}
                             <div className="call d-none d-lg-flex align-items-center">
                                 <span
                                     className="bi bi-telephone me-3"
@@ -40,19 +42,19 @@ function Nav() {
                                 </div>
                             </div>
 
-                            {/* Center: Logo */}
+                            {/* Logo (Center) */}
                             <div className="logo position-absolute start-50 translate-middle-x text-center">
                                 <h1 className="p-0 m-0 text-uppercase fw-semibold">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to="/"
                                         className="text-white text-decoration-none navbar-brand fs-2 m-0"
                                     >
                                         Fly <span style={{ color: "#f26f55" }}>By</span>
-                                    </a>
+                                    </Link>
                                 </h1>
                             </div>
 
-                            {/* Right: Language, Cart, Sign Up */}
+                            {/* Right Header */}
                             <div className="top-header-right d-none d-lg-flex align-items-center gap-4">
                                 <div className="lang d-flex align-items-center gap-2 fs-6">
                                     <span className="ri-global-line"></span>
@@ -66,12 +68,13 @@ function Nav() {
                                         {cartItems.length}
                                     </span>
                                 </Link>
+
                                 <button className="btn sign-up btn-custome text-white rounded-5 px-4 py-2 fs-6 fw-semibold">
                                     Sign Up
                                 </button>
                             </div>
 
-                            {/* Mobile: Menu Toggle */}
+                            {/* Mobile Menu Toggle */}
                             <button
                                 className="navbar-toggler nav-toggle d-block d-lg-none box-shadow-none"
                                 type="button"
@@ -85,31 +88,32 @@ function Nav() {
                 </div>
             </div>
 
+            {/* Bottom Navbar Section */}
             <div className="container">
                 <div className="row py-0 py-lg-3 w-100 d-flex align-items-center">
                     <div className="col-lg-9">
-                        <div className={`collapse navbar-collapse ${isMenuOpen} ? 'show': "" `} id="navtoggle">
-                            <ul className="nav-menu list-unstyled m-0 d-flex fle-column flex-lg-row align-items-start align-items-lg-center gap-3 gap-xl-5 gap-lg-4">
+                        <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navtoggle">
+                            <ul className="nav-menu list-unstyled m-0 d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-3 gap-xl-5 gap-lg-4">
                                 <li className="nav-items position-relative">
-                                    <a href="/" className="nav-link" onClick={closeMenu}>Home</a>
+                                    <Link to="/" className="nav-link" onClick={closeMenu}>Home</Link>
                                 </li>
                                 <li className="nav-items position-relative">
-                                    <a href="/Tours" className="nav-link" onClick={closeMenu}>Tours</a>
+                                    <Link to="/Tours" className="nav-link" onClick={closeMenu}>Tours</Link>
                                 </li>
                                 <li className="nav-items position-relative">
-                                    <a href="/Hotels" className="nav-link" onClick={closeMenu}>Hotels</a>
+                                    <Link to="/Hotels" className="nav-link" onClick={closeMenu}>Hotels</Link>
                                 </li>
                                 <li className="nav-items position-relative">
-                                    <a href="/Transports" className="nav-link" onClick={closeMenu}>Transports</a>
+                                    <Link to="/Transports" className="nav-link" onClick={closeMenu}>Transports</Link>
                                 </li>
                                 <li className="nav-items position-relative">
-                                    <a href="/Restaurants" className="nav-link" onClick={closeMenu}>Restaurants</a>
+                                    <Link to="/Restaurants" className="nav-link" onClick={closeMenu}>Restaurants</Link>
                                 </li>
                                 <li className="nav-items position-relative">
-                                    <a href="/About" className="nav-link" onClick={closeMenu}>About</a>
+                                    <Link to="/About" className="nav-link" onClick={closeMenu}>About</Link>
                                 </li>
                                 <li className="nav-items position-relative">
-                                    <a href="/Contact" className="nav-link" onClick={closeMenu}>Contact</a>
+                                    <Link to="/Contact" className="nav-link" onClick={closeMenu}>Contact</Link>
                                 </li>
                             </ul>
                         </div>
@@ -118,7 +122,11 @@ function Nav() {
                     <div className="col-lg-3">
                         <div className="nav-input-box w-100 d-none d-lg-flex align-items-center justify-content-start gap-2">
                             <i className="bi bi-search"></i>
-                            <input type="text" className="form-control form-control-sm w-100" placeholder="Search for Destinations" />
+                            <input
+                                type="text"
+                                className="form-control form-control-sm w-100"
+                                placeholder="Search for Destinations"
+                            />
                         </div>
                     </div>
                 </div>
